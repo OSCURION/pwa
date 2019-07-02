@@ -1,0 +1,50 @@
+.cuadro {
+    font-family: montserrat, sans-serif;
+    align-items: center;
+    width: 100%;
+
+    /*PARA CENTRAR*/
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+@media(min-width: 0px) {
+    .text1 {
+        font-size: 100px;
+        font-weight: 900;
+        letter-spacing: 1px;
+        text-transform: uppercase;
+        position: absolute;
+        background: url(img/bg.jpg) 50% 50%;
+        background-size: cover;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+
+
+    }
+}
+
+@media(min-width: 1200px) {
+    .text1 {
+        font-size: 300px;
+        font-weight: 900;
+        letter-spacing: 10px;
+        text-transform: uppercase;
+        position: absolute;
+        background: url(img/bg.jpg) 50% 50%;
+        background-size: cover;
+        -webkit-text-fill-color: transparent;
+        -webkit-background-clip: text;
+        border-bottom: 50px skyblue solid;
+
+    }
+
+}
+
+.text {
+    font-size: 5rem;
+    border-bottom: 20px gray solid;
+    color: gray;
+}
